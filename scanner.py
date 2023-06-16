@@ -13,11 +13,11 @@ clients = scapy.srp(request_broadcast, timeout = 1)[0]
 
 print("")
 print(" ____________________________")
-print("|-Nueva IP----|----Nueva MAC-|")
+print("|-New IP----|----New MAC-|")
 print("l-------------|--------------j")
 print("")
 for element in clients:
     print(element[1].psrc + " | " + element[1].hwsrc)
 print("")
-print("Escaneo de red finalizado...")
+print("Network scan finished...")
 
